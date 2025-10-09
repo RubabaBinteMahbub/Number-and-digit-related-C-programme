@@ -3,8 +3,11 @@ mirror image such as 121, 474, 323 etc.
   
 #include<stdio.h>
 int main(){
-    int num=1234,rev=0,rem;
-    printf("Number = %d\n",num);
+    int num,rev=0,rem;
+  
+    printf("Enter the number : ");
+    scanf("%d",&num);
+  
     int original_num=num;
 
     while(num!=0){
